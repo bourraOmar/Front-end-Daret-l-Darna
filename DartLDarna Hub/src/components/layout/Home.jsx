@@ -1,21 +1,7 @@
 import { Link } from "react-router-dom";
 import { LuBuilding2, LuPiggyBank, LuUsers, LuLock, LuTrendingUp } from "react-icons/lu";
-
-
-const Card = ({ className = "", children }) => (
-  <div className={`rounded-lg border border-gray-200 bg-white shadow-sm ${className}`}>
-    {children}
-  </div>
-);
-
-const Button = ({ className = "", size = "md", children }) => {
-  const sizeClass = size === "lg" ? "px-4 py-3 text-base" : "px-4 py-2 text-sm";
-  return (
-    <button className={`inline-flex items-center justify-center font-medium transition ${sizeClass} ${className}`}>
-      {children}
-    </button>
-  );
-};
+import Card from "../ui/Card";
+import Button from "../ui/Button";
 
 const ArrowRight = ({ className = "" }) => (
   <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

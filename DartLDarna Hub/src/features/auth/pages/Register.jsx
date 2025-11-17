@@ -1,14 +1,11 @@
 import React from "react";
+import { LuBuilding2 } from "react-icons/lu";
 
 const Register = () => {
   return (
     <div className="flex h-full flex-col justify-center py-28">
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-        <img
-          alt="Your Company"
-          src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-          className="mx-auto h-10 w-auto"
-        />
+        <LuBuilding2 className="mx-auto h-10 w-auto text-indigo-600" />
         <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900">
           Create your account
         </h2>
@@ -106,7 +103,7 @@ const Register = () => {
                 className="block w-full rounded-md bg-white px- py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm"
               />
             </div>
-          </div>  
+          </div>
           <div>
             <button
               type="submit"
