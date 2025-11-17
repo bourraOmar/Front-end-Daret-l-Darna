@@ -85,6 +85,7 @@ const Register = () => {
               />
             </div>
           </div>
+          
 
           <div>
             <div className="flex item-center justify-between">
@@ -104,6 +105,22 @@ const Register = () => {
               />
             </div>
           </div>
+          <label for="remember" class="flex items-start mb-5">
+            <input
+              id="remember"
+              type="checkbox"
+              value=""
+              class="w-4 h-4 border border-default-medium rounded-xs bg-neutral-secondary-medium focus:ring-2 focus:ring-brand-soft"
+              required
+            />
+            <p class="ms-2 text-sm font-medium text-heading select-none">
+              I agree with the{" "}
+              <a href="#" class="text-fg-brand hover:underline">
+                terms and conditions
+              </a>
+              .
+            </p>
+          </label>
           <div>
             <button
               type="submit"

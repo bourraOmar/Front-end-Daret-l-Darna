@@ -96,7 +96,7 @@ export default function About() {
             className="inline-flex items-center justify-center rounded-md bg-indigo-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-indigo-500"
           >
             Get Started
-          </Link>
+          </Link> 
           <Link
             to="/savings"
             className="inline-flex items-center justify-center rounded-md border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-700 transition hover:bg-gray-50"
