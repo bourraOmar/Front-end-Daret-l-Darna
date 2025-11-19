@@ -16,7 +16,7 @@ export default function About() {
           save together. Secure, simple, and collaborative—your financial future
           starts here.
         </p>
-      </section>
+      </section>   
 
       {/* Features Section */}
       <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

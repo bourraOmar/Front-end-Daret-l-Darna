@@ -27,7 +27,7 @@ const Home = () => {
                 Choose your path: Find your dream property or grow your wealth through collective savings.
               </p>
             </div>
-
+ 
             <div className="grid md:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto pt-12">
               {/* Real Estate Platform */}
               <Card className="group relative overflow-hidden border-2 border-border hover:border-blue-600 dark:hover:border-blue-400 transition-all duration-300 p-8">
